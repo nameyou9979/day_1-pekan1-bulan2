@@ -4,6 +4,8 @@ function sayhello(){
  confirm("oh nama mu " + nama)
 }
 
+
+
 /*
 "Contoh Deklarasi Tipe Data di JavaScript"
 
@@ -30,6 +32,8 @@ let namaVar6  = undefined;
 let namaVar7; 
 di dalam nya ada ada variable tapi belum ada nilai
 
+
+
 let nama = "nama"
 
 function namaFunction() {
@@ -50,6 +54,7 @@ let alamat = prompt("Masukan Alamat Anda");
 
 
 
+operator aritmatika
 
 function add(){
     let a = prompt("Masukan Angka Pertama");
@@ -89,7 +94,7 @@ function modulus(){
     let result = Number(a) % Number(b)
     console.log("Sisa Bagi dari "+ a +" Di Bagi "+ b +" Sisanya " + result);
 }
-fungsi function modulus adalah untuk menghitung sisa pembagian
+fungsi function modulus adalah untuk menghitung (sisa) pembagian
 
 function exponen(){
     let a = prompt("Masukan Angka Pertama");
@@ -98,7 +103,6 @@ function exponen(){
     console.log("Hasil dari "+ a +" Pangkat "+ b +" Adalah " + result);
 }
 fungsi function eksponen adalah untuk menghitung pengkat
-
 
 let a = 90;
 let b = a;
@@ -110,6 +114,32 @@ const f = "Nama ";
 let g = "Saya ";
 let h = "Bambang ";
 //contoh logika aritmatika
+
+// OPERATOR COMPARISON FOR >> GREATER THAN (>)
+console.log(5 > 5);    // false → 5 tidak lebih besar dari 5
+console.log(6 > 5);    // true  → 6 lebih besar dari 5
+console.log(6 > 90);   // false → 6 tidak lebih besar dari 90
+console.log(5 >= 5);   // true  → 5 lebih besar atau sama dengan 5
+
+// OPERATOR COMPARISON FOR >> LESS THAN (<)
+console.log(5 < 5);    // false → 5 tidak lebih kecil dari 5
+console.log(5 <= 5);   // true  → 5 lebih kecil atau sama dengan 5
+
+// OPERATOR COMPARISON FOR >> EQUAL TO (==)
+console.log(5 == 5);   // true  → nilai sama
+console.log(5 == '5'); // true  → nilai sama walau tipe beda
+console.log(5 == 6);   // false → nilai beda
+
+// OPERATOR COMPARISON FOR >> NOT EQUAL TO (!=)
+console.log(5 != 5);   // false → nilai sama
+console.log(5 != '5'); // false → dianggap sama
+console.log(5 != 6);   // true  → nilai beda
+
+// STRICT COMPARISON FOR >> EQUAL (===) AND NOT EQUAL (!==)
+console.log(5 === '5'); // false → beda tipe (number vs string)
+console.log(5 !== '5'); // true  → nilai sama tapi tipe beda
+console.log(5 !== 5);   // false → nilai dan tipe sama
+
 
 // (&&) // jawaban benar jika dua dua nya true
 
